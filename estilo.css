@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+body {
+    background-color: rgba(134, 134, 235, 0.45);
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
+
+.navegador p {
+    font-family: 'Jost', sans-serif;
+}
+
+.navegador {
+    width: 30%;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 60px rgb(156, 156, 156);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin: 1em 20px 1em 0;
+    padding: 0.5em;
+    overflow: hidden;
+}
+.perfil:hover{
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0;
+    background-color: rgba(173, 111, 232, 0.353);
+}
+.perfil > p {
+    align-self: center;
+    margin-left: 20px;
+}
+
+.perfil img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+/* ----------- etiquetas a  --------------- */
+.navegador  a, .bi{
+    margin-top: 10px;
+    padding : 10px ;
+    text-decoration: none;
+    color: rgb(133, 129, 129);
+}
+.navegador > a:hover{
+    background-color: rgba(137, 43, 226, 0.186);
+    color: blueviolet;
+    .bi{
+        color: blueviolet;
+    }
+}
+a > .bi{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/*------------- section ---------------- */
+section{
+    background-color: aliceblue;
+    width: 68%;
+    margin:1% 1% 0 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+

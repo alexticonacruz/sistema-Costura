@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+body {
+    background-color: rgba(134, 134, 235, 0.45);
+    background-color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    padding: 1em;
+}
