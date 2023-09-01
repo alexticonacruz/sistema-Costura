@@ -67,6 +67,14 @@ a:active{
     color:rgba(0, 0, 255, 0.597);
     text-decoration: underline;
 }
+.precio{
+    background-color: blueviolet;
+    position: absolute;
+    padding: 10px 4px;
+    border-radius: 0px 0px 0px 10px;
+    top: 0px;
+    right: 0px;
+}
 img{
     width: 100%;
     height: 242px;
